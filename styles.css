@@ -1,0 +1,73 @@
+.table {
+  width: 400px;
+  height: 300px;
+  /* Linear gradient background from forestgreen to darkgreen */
+  background: linear-gradient(forestgreen, darkgreen);
+  position: relative;
+}
+
+.card-red {
+  color: red;
+}
+
+.card-black {
+  color: black;
+}
+
+.card {
+  background-color: whitesmoke;
+  border: 1px solid black;
+  width: 100px;
+  height: 160px;
+  line-height: 160px;
+  text-align: center;
+  font-size: 80px;
+  /* Border radius and box shadow */
+  border-radius: 5px;
+  box-shadow: 3px 3px 0 black;
+  position: absolute;
+}
+
+.card-top {
+  /* Position 150px from left, 100px from top */
+  left: 150px;
+  top: 100px;
+  z-index: 2;
+}
+
+.card-bottom {
+  /* Position 240px from left, 120px from top */
+  left: 240px;
+  top: 120px;
+  z-index: 1;
+}
+
+.heart {
+  color: red;
+  font-size: 28px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.spade {
+  color: black;
+  font-size: 36px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.top-left {
+  /* Position 2px from left and top */
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
+
+.bottom-right {
+  /* Position 2px from right and bottom */
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+}
